@@ -186,6 +186,6 @@ git push [变量名] master(分支)
 3.git push [变量名] -u master(分支)
 说明：加上-u参数，下次push时只需要执行git push就能上传代码了（加上-u之后git会把当前分支与远程指定的分支进行关 联，下次操作时只需要git push和git pull进行上传和拉取）
 
-###常见报错处理
+### 常见报错处理
 1，does not have a commit checked out
 solution：删除子目录下.git文件
